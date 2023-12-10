@@ -1,0 +1,186 @@
+.portifolio {
+  background: #141414;
+  color: #ffffff;
+}
+
+.portifolio-container {
+  max-width: 1200px;
+  padding: 120px 40px 40px 40px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 100px;
+  position: relative;
+}
+
+.portifolio-container::after {
+  content: "";
+  display: block;
+  width: 130px;
+  height: 100px;
+  background: url("../img/detalhe.svg") no-repeat center;
+  position: absolute;
+  bottom: -50px;
+  left: 20px;
+}
+
+.portifolio .subtitulo {
+  color: #000000;
+  max-width: 4ch;
+}
+
+.portifolio-tx {
+  font-size: 1.5rem;
+  line-height: 1.33;
+  max-width: 40ch;
+  margin-bottom: 60px;
+  color: #a3a3a3;
+}
+
+strong {
+  color: #ffffff;
+}
+
+.projeto-lista {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding: 20px;
+  margin-bottom: 60px;
+}
+
+.projeto {
+  background: #000000;
+  padding: 20px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.projeto-titulo {
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  color: #a3a3a3;
+  margin-bottom: 10px;
+}
+
+.projeto-nome {
+  flex: 1;
+  font-size: 1.125rem;
+  line-height: 1.4;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.projeto-nome::before {
+  content: "";
+  display: block;
+  width: 4px;
+  height: 20px;
+  background: linear-gradient(#ff2a55 0%, #a60011);
+  position: absolute;
+  left: -24px;
+}
+
+.projeto-img {
+  border-radius: 4px;
+  margin-bottom: 20px;
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+}
+
+.projeto-img img {
+  display: block;
+  transition: transform 0.3s; 
+}
+
+.projeto-img:hover::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); 
+  z-index: 1; 
+  pointer-events: none; 
+}
+
+.projeto-img:hover img {
+  transform: scale(1.1); 
+}
+
+.projeto-img span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff; /* Cor do texto */
+  font-size: 1.2rem;
+  z-index: 2; /* Coloca o texto acima da imagem e da sobreposição */
+}
+
+.projeto-descricao {
+  font-size: 0.85rem;
+  color: #a3a3a3;
+}
+
+.cursos {
+  margin-bottom: 60px;
+}
+
+.portifolio-extra h3 {
+  font-size: 0.875rem;
+  line-height: 1.4;
+  color: #8f8f8f;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.portifolio-extra h3::before {
+  display: block;
+  content: "";
+  width: 20px;
+  height: 24px;
+  position: absolute;
+  left: -36px;
+  top: -4px;
+}
+
+.cursos h3::before {
+  background: url("../img/cursos.svg") no-repeat center center;
+}
+
+.portifolio-extra li {
+  font-size: 1.125rem;
+  line-height: 1.4;
+  margin-bottom: 20px;
+}
+
+.portifolio-extra span {
+  color: #8f8f8f;
+}
+
+.cursos li {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 800px) {
+  .portifolio-container {
+    grid-template-columns: 1fr;
+    padding: 60px 20px;
+    gap: 40px;
+  }
+  .portifolio .subtitulo {
+    color: #ffffff;
+  }
+  .portifolio-tx {
+    font-size: 1.125rem;
+  }
+  .projeto-lista {
+    grid-template-columns: 1fr;
+  }
+}
