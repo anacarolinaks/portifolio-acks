@@ -183,4 +183,8 @@ strong {
   .projeto-lista {
     grid-template-columns: 1fr;
   }
+  .projeto-img img{
+    margin: 0px;
+    width: 100%;
+  }
 }
