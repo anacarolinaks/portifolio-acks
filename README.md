@@ -9,8 +9,9 @@ Adicionando algguns itens para melhorar a navegação na versão mobile e adicio
 
 ## Como Ficou
 
-- [Demo]([https://github.com/seu-usuario/projeto-1](https://anacarolinaks.github.io/portifolio-acks/))
 
+ <a href="https://github.com/seu-usuario/projeto-1](https://anacarolinaks.github.io/portifolio-acks">Visite o portifolio</a>
+ 
 ## Tecnologias Utilizadas
 
 - HTML5
