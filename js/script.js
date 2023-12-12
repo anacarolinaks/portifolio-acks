@@ -13,5 +13,18 @@ function toggleMenu(event) {
   }
 }
 
+function fecharMenu() {
+  const nav = document.getElementById('nav');
+  nav.classList.remove('active');
+  btnMobile.setAttribute('aria-expanded', false);
+  btnMobile.setAttribute('aria-label', 'Abrir Menu');
+}
+
 btnMobile.addEventListener('click', toggleMenu);
 btnMobile.addEventListener('touchstart', toggleMenu);
+
+document.querySelectorAll('.menu-item').forEach(function(item) {
+  item.addEventListener('click', function() {
+    fecharMenu();
+  });
+});
