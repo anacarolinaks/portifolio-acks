@@ -1,11 +1,20 @@
+.fixar {
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+}
+
 .header {
-  max-width: 1200px;
-  padding: 40px 20px;
+  background: #ffffff;
+  padding: 15px 40px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  box-shadow: 0px 0px 12px rgba(0,0,0,.5);
 }
+
+
 #btn-mobile {
   display: none;
 }
