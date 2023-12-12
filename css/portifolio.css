@@ -188,7 +188,6 @@ strong {
 @media (max-width: 800px) {
   .portifolio-container {
     grid-template-columns: 1fr;
-    padding: 60px 20px;
     gap: 40px;
   }
   .portifolio .subtitulo {

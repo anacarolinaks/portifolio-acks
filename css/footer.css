@@ -54,4 +54,7 @@
   .footer-contato li {
     font-size: 1.5rem;
   }
+  .footer-contato li a:hover{
+    color: #ffffff;
+  }
 }

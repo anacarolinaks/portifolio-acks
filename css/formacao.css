@@ -125,8 +125,12 @@ strong {
 @media (max-width: 800px) {
   .formacao-container {
     grid-template-columns: 1fr;
-    padding: 60px 20px;
     gap: 40px;
+  }
+  .formacao-container:target:before {
+    content:"";
+    display:block;
+    margin:-200px 0 0; /* negative fixed header height */
   }
   .formacao .subtitulo {
     color: #ffffff;

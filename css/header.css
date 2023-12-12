@@ -106,4 +106,8 @@
     transform: rotate(-135deg);
     top: -7px;
   }
+  .header-menu a:hover {
+    background: #f5f5f5;
+    color: #141414;
+  }
 }
