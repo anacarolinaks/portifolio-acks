@@ -10,7 +10,7 @@ Adicionando alguns itens para melhorar a navegação na versão mobile e adicion
 ## Como Ficou
 
 
- <a href="https://github.com/seu-usuario/projeto-1](https://anacarolinaks.github.io/portifolio-acks">Visite o portifolio</a>
+ <a href="https://anacarolinaks.github.io/portifolio-acks">Visite o portifolio</a>
  
 ## Tecnologias Utilizadas
 
