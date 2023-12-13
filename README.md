@@ -5,7 +5,7 @@ Bem-vindo ao meu portfólio! Este repositório contém o código-fonte do meu si
 ## Sobre o Projeto
 
 Este projeto foi desenvolvimento no curso de HTML e CSS da empresa Origamid, fiz algumas mudanças do projeto inicial.
-Adicionando algguns itens para melhorar a navegação na versão mobile e adicionando a seção de portiflio com alguns dos meu projetos desenvolvidos para treino.
+Adicionando alguns itens para melhorar a navegação na versão mobile e adicionando a seção de portiflio com alguns dos meu projetos desenvolvidos para treino.
 
 ## Como Ficou
 
