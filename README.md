@@ -1,4 +1,4 @@
-# Portfólio
+# Portfólio / Curriculo
 
 Bem-vindo ao meu portfólio! Este repositório contém o código-fonte do meu site pessoal, onde compartilho informações sobre mim, meus projetos e habilidades.
 
